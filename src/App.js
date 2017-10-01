@@ -8,23 +8,18 @@ const FullScreenCenter = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #4A9543;
+  background-color: #4a9543;
 `;
 
 class App extends Component {
   render() {
     return (
       <FullScreenCenter>
-        <UltiMatt 
-          fillColor={"#FFFFFF"}
-          height='80vh'
-          width='20.95vh'
-        />
+        <UltiMatt fillColor={'#FFFFFF'} height="80vh" width="20.95vh" />
       </FullScreenCenter>
     );
   }
 }
-
 
 // /* Fill 10: */
 // background: #5E5E5F;
